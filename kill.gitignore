@@ -1,0 +1,26 @@
+# Keil MDK 编译产物
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.o
+*.d
+*.crf
+*.lst
+*.dep
+*.tra
+*.uvguix.*
+*.uvoptx
+
+# 编译输出文件夹
+Objects/
+Listings/
+
+# VSCode
+.vscode/
+!/.vscode/c_cpp_properties.json
+
+# 系统文件
+Thumbs.db
+.DS_Store
